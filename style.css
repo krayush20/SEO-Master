@@ -1,0 +1,90 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.navbar-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-container div img{
+    height: 30px;
+}
+
+.grow-list{
+    position: relative;
+    left: -250px
+}
+
+.list{
+    display:flex;
+    list-style-type: none;
+}
+
+.list-item{
+    margin-right: 25px;
+}
+
+.list-item:hover, button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3c2f60;
+}
+
+.nav-button{
+    background-color: #5955b3;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    border: #5955b3;
+    border-radius: 7px;
+}
+
+.banner-container{
+    display: inline;
+}
+
+.banner-container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 370px;
+    position: relative;
+    left: 153px;
+    top: 100px;
+}
+
+.banner-container div button{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+h1{
+    color: #3c2f60;
+    position: relative;
+    font-size: 50px;
+    margin: 0px;
+}
+
+h1 span{
+    color: #5955b3;
+}
+
+p{
+    color:#a2a2a2;
+}
+
+.banner-container div img{
+    position: relative;
+    top: -420px;
+    left: 656px;
+    height: 547px;
+    width: 702px;
+}
